@@ -1,0 +1,29 @@
+{
+  "bin": {
+    "onurravli": "index.js"
+  },
+  "main": "index.js",
+  "name": "onurravli",
+  "version": "4.0.0",
+  "description": "onurravli",
+  "exports": "./index.js",
+  "author": {
+    "name": "Onur Ravli",
+    "email": "onur@onurravli.com",
+    "url": "https://onurravli.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^4.0.0",
+    "axios": "^1.6.7",
+    "chalk": "4.1.2",
+    "inquirer": "^8.2.6",
+    "open": "^10.0.3",
+    "terminal-image": "^2.0.0",
+    "word-wrap": "^1.2.5"
+  },
+  "type": "module"
+}
