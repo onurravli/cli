@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
 import chalk from "chalk";
 import wrap from "word-wrap";
 import { select } from "@inquirer/prompts";
@@ -85,3 +88,9 @@ axios
       }
     });
   });
+
+process.on('exit', () => {
+  console.log("\n");
+  console.log("Bye.");
+  process.exit(0);
+})
